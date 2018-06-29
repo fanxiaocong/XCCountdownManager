@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XCCountdownManager_Example' do
+  pod 'XCCountdownManager', :path => '../'
+
+  target 'XCCountdownManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
