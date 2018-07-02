@@ -7,6 +7,7 @@
 //
 
 #import "XCViewController.h"
+#import "XCTTTViewController.h"
 
 @interface XCViewController ()
 
@@ -17,13 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    XCTTTViewController *vc = [[XCTTTViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

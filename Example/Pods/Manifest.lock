@@ -1,0 +1,16 @@
+PODS:
+  - XCCountdownManager (0.0.1)
+
+DEPENDENCIES:
+  - XCCountdownManager (from `../`)
+
+EXTERNAL SOURCES:
+  XCCountdownManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XCCountdownManager: 4ef2d82e5355fe979a1f9fdf22601689477b66bd
+
+PODFILE CHECKSUM: 7ecc4937dabf303f5bfa3c5d1145d28b8d91e2ff
+
+COCOAPODS: 1.5.3
